@@ -1,5 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
-    background-image: url(./assets/fundo2.jpg);
+    background-image: url(./assets/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#logo {
+    width: 271px;
+    display: block;
+}
+
+.personagens {
+    width: 229px;
+    position: absolute;
+    right: 181px;
+    top: 15px;
 }

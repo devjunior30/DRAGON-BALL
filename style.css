@@ -43,6 +43,7 @@ section img {
     position: absolute;
     right: 181px;
     top: 15px;
+    transition: opacity 2000ms;
 }
 
 section img.personagens {

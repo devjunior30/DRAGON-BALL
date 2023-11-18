@@ -127,3 +127,14 @@ p {
     width: 130px;
 }
 }
+
+@media (min-width: 753px) and (max-width: 1000px) {
+    section img{
+        width: 176px;
+        right: 50px;
+    }
+
+    #goku {
+        width: 200px;
+    }
+}

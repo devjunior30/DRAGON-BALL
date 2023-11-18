@@ -62,7 +62,7 @@ section img.personagens {
     width: 250px;
 }
 
-@media (min-width: 390px) and (max-width: 844px) {
+@media screen and (min-width: 0px) and (max-width: 441px) {
 
 body {
     background-image: url(./assets/fundo-responsivo.jpg);
@@ -70,9 +70,22 @@ body {
     background-size: auto;
 }
 
+main {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 385px;
+    margin-left: 10px;
+}
+
 
 #logo {
-    margin-left: auto;
+
     width: 200px;
 }
 
@@ -80,19 +93,18 @@ section img{
     display: block;
     width: 150px;
     top: auto;
-    left: 50%;
-    right: 50%;
+    right: 100px;
 }
 
 h1 {
     font-size: 30px;
     text-align: center;
+    margin-bottom: 23px;
 }
 
 p {
     text-align: center;
-    font-size: 13px;
-    width: 60%;
+    font-size: 11px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -104,10 +116,14 @@ p {
 }
 
 #freeza {
-    width: 200px;
+    width: 250px;
 }
 
 #goku {
-    width: 190px;
+    width: 150px;
+}
+
+#boo {
+    width: 130px;
 }
 }

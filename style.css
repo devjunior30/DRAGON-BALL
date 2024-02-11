@@ -78,7 +78,7 @@ h2 {
     transition: opacity 2000ms;
 }
 
-@media screen and (min-width: 0px) and (max-width: 441px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
 
 body {
     background-image: url(./assets/fundo-responsivo.jpg);
@@ -112,14 +112,17 @@ div {
 
 section {
     display: block;
+    position: relative;
+    left: 50%;
 }
 
 section img{
     display: block;
     margin-left: auto;
-    width: 100px;
-    position: static;
+    width: 150px;
+    position: absolute;
     margin-right: auto;
+    top: 65%;
 }
 
 h1 {
@@ -150,7 +153,7 @@ button {
     color: red;
     font-size: 16px;
     font-style: italic;
-    margin: 30px auto 0 auto;
+    margin: 10px auto 0 auto;
 }
 
 #gohan, #piccolo {
@@ -166,18 +169,25 @@ button {
 }
 
 #boo {
-    width: 130px;
+    width: 100px;
 }
 
 h2 {
     position: static;
-    font-size: 28px;
+    font-size: 15px;
     margin-top: 30px;
     text-align: center;
+    margin-left: 173px;
+    background-color: red;
+    width: 96px;
+    height: 34px;
+    border-radius: 12px;
+    padding-top: 8px;
+    font-style: italic;
 }
 }
 
-@media (min-width: 753px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1000px) {
     section img{
         width: 176px;
         right: 50px;

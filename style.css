@@ -19,9 +19,13 @@ body {
 
 div {
     width: 620px;
-    display: block;
+    display: inline-block;
     margin-left: 50px;
     margin-top: 30px;
+}
+
+section {
+    display: inline-block;
 }
 
 h1 {
@@ -60,6 +64,13 @@ section img.personagens {
 
 #goku {
     width: 250px;
+}
+
+h2 {
+    position: absolute;
+    right: 252px;
+    top: 626px;
+    font-size: 37px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 441px) {

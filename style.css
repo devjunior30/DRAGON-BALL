@@ -41,6 +41,10 @@ p{
     border-radius: 29px;
 }
 
+button {
+    display: none;
+}
+
 section img {
     opacity: 0;
     width: 210px;
@@ -80,6 +84,11 @@ body {
     background-image: url(./assets/fundo-responsivo.jpg);
     background-repeat: no-repeat;
     background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
 }
 
 main {
@@ -101,11 +110,16 @@ div {
     width: 200px;
 }
 
+section {
+    display: block;
+}
+
 section img{
     display: block;
-    width: 150px;
-    top: auto;
-    right: 100px;
+    margin-left: auto;
+    width: 100px;
+    position: static;
+    margin-right: auto;
 }
 
 h1 {
@@ -120,7 +134,23 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
+.escondido{
+    display: none;
+}
+
+button {
+    display: block;
+    width: 175px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: #EE82EE;
+    color: red;
+    font-size: 16px;
+    font-style: italic;
+    margin: 30px auto 0 auto;
 }
 
 #gohan, #piccolo {
@@ -140,15 +170,10 @@ p {
 }
 
 h2 {
-    position: relative;
-    font-size: 37px;
-    top: 376px;
-    left: 20px;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-    transition: 0.5s
+    position: static;
+    font-size: 28px;
+    margin-top: 30px;
+    text-align: center;
 }
 }
 

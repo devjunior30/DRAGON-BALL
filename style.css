@@ -71,6 +71,7 @@ h2 {
     right: 252px;
     top: 626px;
     font-size: 37px;
+    transition: opacity 2000ms;
 }
 
 @media screen and (min-width: 0px) and (max-width: 441px) {
@@ -136,6 +137,18 @@ p {
 
 #boo {
     width: 130px;
+}
+
+h2 {
+    position: relative;
+    font-size: 37px;
+    top: 376px;
+    left: 20px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s
 }
 }
 
